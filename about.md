@@ -3,28 +3,16 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+![profile](profile.png){:class="img-responsive"}
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I'm a junior at the University of Illinois at Urbana Champaign. I am studying Computer Science and Linguistics, with an interest in Natural Language Processing and Machine Learning. I am minoring in East Asian Languages and Cultures, and am actively working towards business proficiency in Japanese and Korean.
 
-There are currently two themes built on Poole:
+I have had 3 technical internships and 1 volunteer experience related to computer science. I was a software engineering intern at OverDrive Inc., Optima Solutions, and Rockwell Automation. I also volunteered at the CodeMash software convention, and gave a presentation on Unicode and text input. I am currently interning at VoiceItt, and I am part of their speech processing development team.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+At university, I am involved in the AI research group, SIGAI. I am also a member of the computational linguistics league, and am doing statistical machine translation research on Siberian Yupik, a critical language in Alaska.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Currently I'm working at VoiceItt in Tel Aviv, Israel. There I do signal processing research and work to improve the speech recognition algorithm for noisy environments and accented speech.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Have questions or suggestions? Feel free to contact me on [Twitter](https://twitter.com/peterzuker) or find me on [LinkedIn](https://www.linkedin.com/in/peter-zukerman).
 
 Thanks for reading!
