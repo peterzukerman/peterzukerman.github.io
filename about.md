@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="profile.png" alt="drawing" width="200"/>
+![profile](profile.png){:class="img-responsive"}
 
 I'm a junior at the University of Illinois at Urbana Champaign. I am studying Computer Science and Linguistics, with an interest in Natural Language Processing and Machine Learning. I am minoring in East Asian Languages and Cultures, and am actively working towards business proficiency in Japanese and Korean.
 
