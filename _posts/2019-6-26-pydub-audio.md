@@ -42,20 +42,32 @@ Or, we can split it up into segments and adjust each segment individually. We ca
 {% highlight python %}
 length = sound.duration_seconds
 
-first = sound[:length/2 * 1000] #pydub works in milliseconds
-second = sound[length/2 * 1000:]
+first = sound[length/2 * 1000:] #pydub works in milliseconds
+second = sound[:length/2 * 1000] 
 
 first += 2
 second -= 4
 
+sound = first + second #concatenate
+
 {% endhighlight %}
 
-### Browser support
+We can shift the pitch as well, but this isn't the result we actually want. When you increase the speed of the clip, the pitch would also go up.
 
-Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+{% highlight python %}
 
-### Download
+# shift the pitch down by half an octave (speed will decrease proportionally)
+octaves = -0.5
 
-Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
+newRate = int(sound.frame_rate * (2.0 ** octaves))
 
-Thanks!
+lowpitch = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate})
+
+{% endhighlight %}
+
+But how can we preserve the speed while changing the pitch? Or preserve the pitch while changing the speed? Unfortunately, PyDub doesn't have a solid implementation for this, so I won't touch on it here. If you want to see a working solution in python, check out [this article.](http://andrewslotnick.com/posts/speeding-up-a-speech.html)
+
+### Conclusion
+
+By making slight alterations in given voice samples, we can exponentially increase the size of a dataset. Even small changes like this increase prediction algorithms' success rates. An extension of making life-like intonations might even be used to generate voices.
+
