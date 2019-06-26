@@ -20,16 +20,35 @@ For speech processing, we need a robust dataset in order to properly predict pho
 Thankfully, PyDub has several functions that make it much easier to work with audio files of various formats. Let's start by loading in a WAV file.
 
 {% highlight python %}
-// Load in library
+# Load in library
 from pydub import AudioSegment
-from pydub.playback import play
 
-// Load in WAV file
+# Load in WAV file
 sound = AudioSegment.from_file("sample.wav", format="wav")
 
 {% endhighlight %}
 
-[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+Changing the volume of the whole sample is easy.
+
+{% highlight python %}
+
+louder = sound + 5 #5 dB louder
+quieter = sound - 8 #8 dB quieter
+
+{% endhighlight %}
+
+Or, we can split it up into segments and adjust each segment individually. We can later use this to generate natural sounding inflections.
+
+{% highlight python %}
+length = sound.duration_seconds
+
+first = sound[:length/2 * 1000] #pydub works in milliseconds
+second = sound[length/2 * 1000:]
+
+first += 2
+second -= 4
+
+{% endhighlight %}
 
 ### Browser support
 

@@ -34,7 +34,7 @@
 .highlight .ne { color: #c00; } /* Name.Exception */
 .highlight .nf { color: #c0f } /* Name.Function */
 .highlight .nl { color: #99f } /* Name.Label */
-.highlight .nn { color: #0cf; } /* Name.Namespace */
+.highlight .nn { color: #999; } /* Name.Namespace */
 .highlight .nt { color: #2f6f9f; } /* Name.Tag */
 .highlight .nv { color: #033 } /* Name.Variable */
 .highlight .ow { color: #000; } /* Operator.Word */
