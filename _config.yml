@@ -17,7 +17,7 @@ author:
   url:            https://twitter.com/peterzuker
 
 paginate:         5
-plugins: [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb]
+plugins: [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb, jekyll-avatar]
 paginate_path: "page:num"
 # Custom vars
 version:          2.1.0
