@@ -42,8 +42,8 @@ Or, we can split it up into segments and adjust each segment individually. We ca
 {% highlight python %}
 length = sound.duration_seconds
 
-first = sound[length/2 * 1000:] #pydub works in milliseconds
-second = sound[:length/2 * 1000] 
+first = sound[:length/2 * 1000] #pydub works in milliseconds
+second = sound[length/2 * 1000:]
 
 first += 2
 second -= 4
