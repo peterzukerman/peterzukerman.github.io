@@ -19,6 +19,7 @@ author:
 paginate:         5
 plugins: [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb, jekyll-avatar, jekyll-admin]
 paginate_path: "page:num"
+gems: [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb, jekyll-avatar, jekyll-admin]
 # Custom vars
 version:          2.1.0
 
