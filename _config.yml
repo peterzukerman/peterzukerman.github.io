@@ -16,9 +16,9 @@ author:
   name:           'Peter Zukerman'
   url:            https://twitter.com/peterzuker
 
-plugins_dir: [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb, jekyll-avatar, jekyll-admin]
+plugins:          [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb, jekyll-avatar, jekyll-admin]
 paginate:         5
-paginate_path: "page:num"
+paginate_path:    "page:num"
 # Custom vars
 version:          2.1.0
 
