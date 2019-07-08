@@ -3,7 +3,7 @@ layout: post
 title: "Generating Artificial Audio Modifications with PyDub"
 author:     "Peter Zukerman"
 header-img: "audioVec.png"
-tags:       [machine learning, programming, python, signal processing]
+tags:       [machine learning, programming, python, signal processing, en]
 ---
 
 PyDub is a simple but powerful [python library](https://github.com/jiaaro/pydub) that lets you quickly and easily manipulate audio files.
