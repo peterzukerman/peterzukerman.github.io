@@ -8,7 +8,6 @@ email: pzukerman17@gmail.com
 description: 
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
-github: [metadata]
 #
 ###################################
 # Jekyll configuration
@@ -37,9 +36,9 @@ owner:
   avatar: profile.png
   job: "Languages, Programming, and Thoughts"
   bio: ""
-  email: "pzukerman17@gmail.com"
+  email: pzukerman17@gmail.com
   disqus-shortname:
-  twitter: "peterzuker" #username
+  twitter: peterzuker #username
   facebook: #username
   google:
     plus: #username
@@ -48,13 +47,13 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: "peterzukerman" #username
+  github: peterzukerman #username
   gitlab: #username
-  stackoverflow: "2967004/peterzuker" #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: "peterzukerman" #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: peterzukerman #username
   skype: #username
   xing: #username
-  instagram: "peterzukerman" #username
+  instagram: peterzukerman #username
   lastfm: #username
   tumblr: #username
   pinterest: #username
