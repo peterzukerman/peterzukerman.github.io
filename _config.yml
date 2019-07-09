@@ -6,7 +6,7 @@
 title: Peter Zukerman
 email: pzukerman17@gmail.com
 description: 
-url: peterzukerman.github.io # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 github: [metadata]
 #
