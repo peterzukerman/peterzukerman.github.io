@@ -1,60 +1,25 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
-  <style>
-    #avatar {
-    background-image: url('https://avatars3.githubusercontent.com/u/31905508?s=460&v=4');
-    
-    /* make a square container */
-    width: 150px;
-    height: 150px;
-
-    /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
-
-    /* center the image vertically and horizontally */
-    background-position: top center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
-    margin: auto;
-    position: static;
-    left: 0; right: 10;
-  }
-  </style>
-  <div id="avatar"></div>
-
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+<div class="cover-card table-cell table-middle">
+  {% if author.avatar %}
+  <a href="{{ site.url }}/">
+    <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+  </a>
+  {% endif %}
+  <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
+  <span class="author_job">{{ author.job }}</span>
+  <span class="author_bio mbm">{{ author.bio }}</span>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="{{ site.url }}/">home</a>
+      </li>
+      {% for page in site.pages %} {% if page.title %}
+      <li class="nav-item">
+        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
   </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
+  {% include social-links.html %}
 </div>

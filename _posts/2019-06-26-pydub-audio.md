@@ -2,7 +2,7 @@
 layout: post
 title: "Generating Artificial Audio Modifications with PyDub"
 author:     "Peter Zukerman"
-header-img: "audioVec.png"
+excerpt: How do we artificially increase a dataset to make machine learning models more accurate?
 tags:       [machine learning, programming, python, signal processing, en]
 ---
 

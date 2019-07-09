@@ -1,26 +1,71 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Peter Zukerman
+email: pzukerman17@gmail.com
+description: 
+url: peterzukerman.github.io # the base hostname & protocol for your site
+keywords: ["blog", "jekyll"]
 
-# Permalinks
-permalink:        pretty
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/Chicago
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Setup
-title:            Peter Zukerman
-tagline:          ''
-description:      'Languages, Progamming, and Thoughts'
-url:              peterzukerman.github.io
-baseurl:          /
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-author:
-  name:           'Peter Zukerman'
-  url:            https://twitter.com/peterzuker
-
-plugins:          [jekyll-paginate, jekyll-gist, jekyll-avatar, jekyll-admin]
-paginate:         5
-paginate_path:    "page:num"
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/peterzukerman/peterzukerman.github.io
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Peter Zukerman
+  avatar: profile.png
+  job: "My Thoughts"
+  bio: ""
+  email: pzukerman17@gmail.com
+  disqus-shortname:
+  twitter: peterzuker #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: peterzukerman #username
+  gitlab: #username
+  stackoverflow: 2967004/peterzuker #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: peterzukerman #username
+  skype: #username
+  xing: #username
+  instagram: peterzukerman #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
