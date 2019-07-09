@@ -14,7 +14,7 @@
   image: pong.png
   github: https://github.com/peterzukerman/Kanji-Lookup-Tool
 
-- name: DDR Techincal Elements Parser
+- name: DDR Technical Elements Parser
   descr: "Open source rhythm/dance game step analysis. Allows for easier development
   and parsing of charts. Written in python. The dataset is based on a Naive-Bayes classifier."
   image: pong.png
