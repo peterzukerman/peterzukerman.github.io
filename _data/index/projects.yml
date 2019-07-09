@@ -3,24 +3,24 @@
   image: pong.png
   github: https://github.com/peterzukerman/Audio-modGenerator
 
-  name: Tools for Siberian Yupik
+- name: Tools for Siberian Yupik
   descr: "Created ebooks and translation materials for the low resource language Siberian Yupik. Developing a Recurrent Neural Network for a Yupik language model, which is used to artificially increase corpus size through text generation."
   image: pong.png
   github: https://github.com/peterzukerman/YupikAnalyzer
 
-  name: Japanese/Chinese Character Dictionary
+- name: Japanese/Chinese Character Dictionary
   descr: "Dictionary application written in C++. Provides the definition and example
   sentences for a given word. Adding support for analyzing handwritten characters using TensorFlow."
   image: pong.png
   github: https://github.com/peterzukerman/Kanji-Lookup-Tool
 
-  name: DDR Techincal Elements Parser
+- name: DDR Techincal Elements Parser
   descr: "Open source rhythm/dance game step analysis. Allows for easier development
   and parsing of charts. Written in python. The dataset is based on a Naive-Bayes classifier."
   image: pong.png
   github: https://github.com/peterzukerman/DDR-Crossover-Finder
 
-  name: Korean Numbers Practice Tool
+- name: Korean Numbers Practice Tool
   descr: "Application for learning korean numbers (native/sino) with various counters. Randomly generated."
   image: pong.png
   github: https://github.com/peterzukerman/Korean-Number-Counter-Practice
