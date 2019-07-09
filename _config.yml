@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
@@ -16,7 +16,7 @@ author:
   name:           'Peter Zukerman'
   url:            https://twitter.com/peterzuker
 
-plugins:          [jekyll-paginate, redcarpet, jekyll-gist, jekyll-avatar, jekyll-admin]
+plugins:          [jekyll-paginate, jekyll-gist, jekyll-avatar, jekyll-admin]
 paginate:         5
 paginate_path:    "page:num"
 # Custom vars
