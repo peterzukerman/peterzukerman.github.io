@@ -8,7 +8,7 @@ email: pzukerman17@gmail.com
 description: 
 url: peterzukerman.github.io # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
-
+github: [metadata]
 #
 ###################################
 # Jekyll configuration
