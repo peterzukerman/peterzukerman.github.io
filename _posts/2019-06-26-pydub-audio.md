@@ -2,7 +2,7 @@
 layout: post
 title: "Generating Artificial Audio Modifications with PyDub"
 author:     "Peter Zukerman"
-excerpt: How do we artificially increase a dataset to make machine learning models more accurate?
+excerpt: For speech processing, we need a robust dataset in order to properly predict phonemes from utterances. Certain problems might arise when we work with languages with smaller datasets, or with particular data where the sample size is small. For example, a low resource language might have few samples, as might a corpus of Turkish speakers saying Spanish words. Thus, artificially generated audio files that slightly differ from the original can dramatically increase the size of the dataset.
 tags:       [machine learning, programming, python, signal processing, en]
 ---
 
