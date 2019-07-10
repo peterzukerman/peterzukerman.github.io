@@ -1,12 +1,12 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: VoiceItt
-  link: http://www.voiceitt.com/
+  link: https://www.voiceitt.com/
   date: May 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
   job: Signal Processing Intern
 
 - name: CodeMash
-  link: http://www.codemash.org/
+  link: https://www.codemash.org/
   date: January 2019
   job: Volunteer and Presenter
 

@@ -67,7 +67,7 @@ lowpitch = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate
 
 {% endhighlight %}
 
-But how can we preserve the speed while changing the pitch? Or preserve the pitch while changing the speed? Unfortunately, PyDub doesn't have a solid implementation for this, so I won't touch on it here. If you want to see a working solution in python, check out [this article.](http://andrewslotnick.com/posts/speeding-up-a-speech.html)
+But how can we preserve the speed while changing the pitch? Or preserve the pitch while changing the speed? Unfortunately, PyDub doesn't have a solid implementation for this, so I won't touch on it here. If you want to see a working solution in python, check out [this article.](https://andrewslotnick.com/posts/speeding-up-a-speech.html)
 
 ### Conclusion
 
