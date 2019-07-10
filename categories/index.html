@@ -3,16 +3,61 @@ layout: page
 title:  日本語のブログ
 permalink: /categories/
 ---
-<div class="tag-list">
-{% for cat in site.categories %}
-  <div class="tag-group">
-    {% capture cat_name %}{{ cat | first }}{% endcapture %}
-    <h5 class="tag-group-title" id="{{ cat_name | slugize }}">{{ cat_name }}</h5>
-    {% for post in site.categories[cat_name] %}
-    <article class="tag-item">
-      <a class="tag-item-title" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
-    </article>
-    {% endfor %}
-  </div>
+{% for post in site.tags.jp %}
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        {{ post.date | date: "%-d %b %Y" | upcase }}
+      </span>
+      {% if post.categories.size > 0 %}
+      •
+      {% for cat in post.categories %}
+        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
+    </p>
+    <h4>
+      <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title | escape }}">{{ post.title }}</a>
+      {% if post.link %}
+      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title | escape }}"><i class="fa fa-external-link"></i></a>
+      {% endif %}
+    </h4>
+
+    {% if post.author %}
+      {% assign author = site.data.authors[post.author] %}
+    {% else %}
+      {% assign author = site.owner %}
+    {% endif %}
+
+    </header>
+
+    {% if post.excerpt %}
+    <div class="post-description">
+      <p>
+        {{ post.excerpt }}
+      </p>
+    </div>
+    {% endif %}
+
+    {% if post.image.feature %}
+    <div class="post-image-feature">
+      <img src=
+      {% if post.image.feature contains 'http' %}
+      "{{ post.image.feature }}"
+      {% else %}
+      "{{ site.url }}/img/{{ post.image.feature }}"
+      {% endif %}
+      alt="{{ post.title | escape }} feature image">
+
+      {% if post.image.credit %}
+      <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
+      {% endif %}
+    </div><!-- /.image-wrap -->
+    {% endif %}
+
+</section>
 {% endfor %}
-</div>
