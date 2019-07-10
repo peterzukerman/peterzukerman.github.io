@@ -1,12 +1,11 @@
 ---
 layout: page
-title:  Blog
-permalink: /en/
+title:  Блог
+permalink: /ru/
 ---
-
 <div class="archive">
   <div class="timeline" id="timeline">
-    {% assign posts_by_year = site.tags.english | group_by_exp:"post", "post.date | date: '%Y' " %}
+    {% assign posts_by_year = site.tags.ru | group_by_exp:"post", "post.date | date: '%Y' " %}
     {% for group in posts_by_year %}
       <div class="archive-title">
         <h4 class="archive-year">{{ group.name }}</h4>
