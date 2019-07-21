@@ -132,7 +132,7 @@ plt.show()
 ![](../../output_15_0.png)
 
 
-This is in line with Chinese tonal pitch patters, as expected. Let's try to change one of these tones to match a different one.
+This is in line with Chinese tonal pitch patterns, as expected. Let's try to change one of these tones to match a different one.
 
 ### Parseltongue and Changing Contours
 Let's try to change tone 1 to tone 2.
