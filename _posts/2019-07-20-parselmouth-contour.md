@@ -3,6 +3,8 @@ layout: post
 title: "Adjusting Pitch Contour with Parselmouth-Praat"
 excerpt: Praat is a powerful tool for phonetics and speech processing. However, since it's GUI based, it's often very slow to use for multiple files. By using Parselmouth, we can wrap Praat functions and access them in Python. One such function is pitch contouring.
 tags:       [programming, python, signal processing, praat, english]
+image:
+  feature: https://zuker.io/output_8_0.png
 ---
 
 [Praat](http://www.fon.hum.uva.nl/praat/) is an application developed for phonetic analysis and speech processing tasks. It's a very powerful tool that remains a state-of-the-art solution for many phonetic needs. However, I want to use it in Python so that I can write general algorithms and store variables, passing them to Praat functions. A library called [Parselmouth](https://github.com/YannickJadoul/Parselmouth) wraps the GUI and gives us access to Praat functions in Python. Let's take a look at how we can use these tools to create custom speech contours.
