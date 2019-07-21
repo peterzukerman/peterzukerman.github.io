@@ -1,0 +1,31 @@
+localization:
+  mode: auto
+  locale: en
+  locales_set: ["en", "ja", "ru"]
+  exclude_set:
+    - _posts/2018-10-18-english-only.md
+    - _puppies
+
+# English US
+en-US:
+  greeting: Hello
+  user: user
+  navigation:
+    home: Home
+    about: About
+
+# Japanese
+ja-JP:
+  greeting: Bonjour
+  user: l' usager
+  navigation:
+    home: Accueil
+    about: À propos
+
+# Russian
+ru-RU:
+  greeting: Bonjour
+  user: l' usager
+  navigation:
+    home: Accueil
+    about: À propos
