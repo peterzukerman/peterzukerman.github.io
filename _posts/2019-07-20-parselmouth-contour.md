@@ -156,7 +156,6 @@ call(pitch_tier, "Add point", 0.6, 150) #create pitchPoint at 0.6s at 150Hz
 call([pitch_tier, manipulation], "Replace pitch tier")
 tone1Mod = call(manipulation, "Get resynthesis (overlap-add)")
 
-#sound.pre_emphasize()
 Audio(data=tone1Mod.values, rate=tone1Mod.sampling_frequency)
 ```
 
@@ -178,7 +177,7 @@ We're close. The pitch jumps up artificially. Let's smooth it out.
 manipulation_improved = call(ma1, "To Manipulation", 0.01, 20, 600)
 pitch_tier_improved = call("Create PitchTier", "name", 0, 0.8) #create a pitchTier between 0 and 0.8 seconds.
 
-call(pitch_tier_improved, "Add point", 0.01, 100) #create pitchPoint at 0s at 100Hz
+call(pitch_tier_improved, "Add point", 0.01, 100) #create pitchPoint at 0.01s at 100Hz
 
 #at 0.4s, the pitch starts increasing
 call(pitch_tier_improved, "Add point", 0.4, 100)
@@ -188,7 +187,6 @@ call(pitch_tier_improved, "Add point", 0.6, 150)
 call([pitch_tier_improved, manipulation_improved], "Replace pitch tier")
 tone1Improved = call(manipulation_improved, "Get resynthesis (overlap-add)")
 
-#sound.pre_emphasize()
 Audio(data=tone1Improved.values, rate=tone1Improved.sampling_frequency)
 ```
 
@@ -210,16 +208,15 @@ Much better. Finally, let's try it with an english sentence.
 manipulation = call(soundEn, "To Manipulation", 0.01, 20, 600)
 pitch_tier = call("Create PitchTier", "name", 0, 1.7) 
 
-call(pitch_tier, "Add point", 0.01, 100) #create pitchPoint at 0s at 100Hz
-call(pitch_tier, "Add point", 0.5, 150) #create pitchPoint at 0s at 100Hz
-call(pitch_tier, "Add point", 1, 100) #create pitchPoint at 0s at 100Hz
-call(pitch_tier, "Add point", 1.7, 175) #create pitchPoint at 0.59s at 100Hz
+call(pitch_tier, "Add point", 0.01, 100) #create pitchPoint at 0.01s at 100Hz
+call(pitch_tier, "Add point", 0.5, 150) #create pitchPoint at 0.5s at 150Hz
+call(pitch_tier, "Add point", 1, 100) #create pitchPoint at 1s at 100Hz
+call(pitch_tier, "Add point", 1.7, 175) #create pitchPoint at 1.7s at 175Hz
 
 
 call([pitch_tier, manipulation], "Replace pitch tier")
 engMod = call(manipulation, "Get resynthesis (overlap-add)")
 
-#sound.pre_emphasize()
 Audio(data=engMod.values, rate=engMod.sampling_frequency)
 ```
 
