@@ -55,7 +55,7 @@ def plotOnGraph(pitch, color):
     
 def setupGraph(ymin, ymax):
     sns.set() # Use seaborn's default style to make attractive graphs
-    plt.rcParams['figure.dpi'] = 150 # Show nicely large images in this notebook
+    plt.rcParams['figure.dpi'] = 150 # Show images nicely
     plt.figure()
     plt.ylim(ymin, ymax)
     plt.ylabel("frequency [Hz]")
@@ -141,7 +141,7 @@ Let's try to change tone 1 to tone 2.
 ```python
 from parselmouth.praat import call
 
-manipulation = call(ma1, "To Manipulation", 0.01, 20, 600) #look for values between 20Hz and 250Hz
+manipulation = call(ma1, "To Manipulation", 0.01, 20, 600) #look for values between 20Hz and 600Hz
 pitch_tier = call("Create PitchTier", "name", 0, 0.8) #create a pitchTier between 0 and 0.8 seconds.
 ```
 
