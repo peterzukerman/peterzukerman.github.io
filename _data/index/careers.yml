@@ -1,8 +1,13 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Raytheon
+  link: https://www.rtx.com/
+  date: June 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Natural Language Processing Intern
+
 - name: VoiceItt
   link: https://www.voiceitt.com/
-  date: May 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  date: May 2019 - August 2019
   job: Signal Processing Intern
 
 - name: CodeMash
