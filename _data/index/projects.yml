@@ -1,3 +1,8 @@
+- name: Twitter Sarcasm Detection
+  descr: "Classifies a given sequence of tweets (responses) as sarcastic or non-sarcastic. Based on BERT."
+  image: pong.png
+  github: https://github.com/peterzukerman/Twitter-Sarcasm-Detection
+
 - name: Audio Modifications Generator
   descr: "Generates augmentations on audio files (changing pitch, duration, and volume). Meant for artificially increasing dataset for better machine learning prediction."
   image: pong.png
@@ -19,8 +24,3 @@
   and parsing of charts. Written in python. The dataset is based on a Naive-Bayes classifier."
   image: pong.png
   github: https://github.com/peterzukerman/DDR-Crossover-Finder
-
-- name: Korean Numbers Practice Tool
-  descr: "Application for learning korean numbers (native/sino) with various counters. Randomly generated."
-  image: pong.png
-  github: https://github.com/peterzukerman/Korean-Number-Counter-Practice
