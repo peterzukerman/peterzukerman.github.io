@@ -245,9 +245,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
   jekyll-locale (~> 0.5)
-  jekyll-paginate
 
 BUNDLED WITH
    2.2.7

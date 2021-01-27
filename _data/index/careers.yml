@@ -2,12 +2,12 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Raytheon
   link: https://www.rtx.com/
-  date: June 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  date: Summer 2020
   job: Natural Language Processing Intern
 
 - name: VoiceItt
   link: https://www.voiceitt.com/
-  date: May 2019 - August 2019
+  date: Summer 2019
   job: Signal Processing Intern
 
 - name: CodeMash
@@ -17,15 +17,15 @@
 
 - name: Rockwell Automation
   link: https://www.sap.com/
-  date: May 2018 - August 2018
+  date: Summer 2018
   job: Software Development Intern
 
   name: Genki Japanese School
   link: https://genkijacs.com/
-  date: June 2016 - August 2016
+  date: Summer 2016
   job: Student
 
   name: Rakuten OverDrive
   link: https://www.sap.com/
-  date: June 2015 - August 2015
+  date: Summer 2015
   job: Data Science Intern
