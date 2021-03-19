@@ -1,5 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Radiate
+  link: https://www.radiatetheworld.com/
+  date: Spring 2021
+  job: Full Stack Engineer
+
 - name: Raytheon
   link: https://www.rtx.com/
   date: Summer 2020

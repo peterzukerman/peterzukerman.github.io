@@ -11,3 +11,21 @@ COVID-19 has made our lives difficult, uncomfortable, and unpredictable. But som
 # Inspiration
 
 I've been folding for many years. I started as a child in 1st grade with a book on folding animals, and since then I've expanded to folding more complex structures and in particular, unit origami. There's a certain wonder of unit origami that [Tomoko Fuse](https://en.wikipedia.org/wiki/Tomoko_Fuse) touches on in her books - modular origami is infinite. Most models can be expanded to any size, and creations with separate units that come together with connections can be as large as the imagination. That idea brought me back to origami this summer. I wanted to make something completely unique, something baffling or extraordinary. I wanted to challenge conventional thoughts on Origami and prove how striking this form of craft can be.
+
+# Projects
+Here are some of my favorites:
+<iframe src="https://www.instagram.com/p/B_c19Tph9pW/embed" width="400" height="490" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+Buckyball 270
+
+<iframe src="https://www.instagram.com/p/B_u_HJBB3e-/embed" width="400" height="450" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+Six Rhombic Dodecahedra
+
+<iframe src="https://www.instagram.com/p/CCHoo5opycN/embed" width="400" height="450" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+Sonobe Variation 3 (Meenakshi Mukerji)
+
+<iframe src="https://www.instagram.com/p/B_nGcJih_yb/embed" width="400" height="450" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+Little Turtle Kusudama
