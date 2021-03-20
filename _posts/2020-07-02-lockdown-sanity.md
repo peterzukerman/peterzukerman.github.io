@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quarantined Folding: Starting an Origami Instagram"
-excerpt: I've been folding for almost a decade now. I decided to revive my hobby during these difficult times.  
+excerpt: I've been folding for almost a decade now. I decided to revive my hobby during COVID.  
 tags:       [quarantine, origami, english]
 comments: true
 ---
