@@ -64,11 +64,14 @@ The holy grail. My daily driver for any and all learning for the past 4 years of
 A 1-on-1 online language learning service where you can schedule lessons with either professional teachers (certified by the website) or community tutors (native language speakers). This is the second resource I recommend for any language, and I've been taking 6 lessons a week (2 japanese, 2 chinese, and 2 russian) for a couple of months now. Starting speaking practice as soon as you can is beneficial for confidence as well as a solid grasp of the spoken language. Professional teachers are useful for those looking for a more structured approach - I've had lessons with them for Japanese, Chinese, and Korean, and in all 3 cases, they have developed a full lesson plan akin to one you might find in a classroom (only tailored specifically to your needs). Now, all my lessons are with community tutors - they tend to just correct little mistakes in your grammar or speaking styles, and I love some of the conversations we have. In recent memory I've discussing the COVID-19 epidemic, the olympics, travel, Japanese politics, and origami.
 
 ## How I Study Now
-- Anki (Daily)
+- **Anki** *(Daily)*
+
 	I'm using Nayr's Core 5k, subs2srs mined flashcards for anime and TV shows, and a completed Kanji in Context deck as a review.
-- Italki (Bi-weekly)
+- **Italki** *(Bi-weekly)*
+
 	2 lessons a week with a Japanese community tutor. Sometimes we read news/manga together, other times just chat about the recent happenings in our lives.
-- Media (Daily)
+- **Media** *(Daily)*
+
 	I try to read, watch or listen to Japanese content as much as I can. Videos on youtube, podcasts, and news websites make up the majority of my media consumption, and I try to do this daily.
 
 That's it! I don't use too many resources now because I don't need to - most of the grammar/vocab I pick up is from media and tends to be very nuanced, so I learn it when I encounter it.
@@ -76,13 +79,20 @@ That's it! I don't use too many resources now because I don't need to - most of 
 ## Recommend Study Plan (0 to Hero)
 Here's how I would study as a complete beginner. If you are more advanced, jump to the point in the plan that you are on in your own studies.
 
-1. Genki 1, Anki, Optional Italki/Tutoring
+1. **Genki 1 | Anki | *Optional Italki/Tutoring***
+
 	In this step, we want to learn the alphabets (there's 3) of Japanese, get some basic grammar and speaking practice under our belt, and commit it to our long term memory. Load everything and anything into Anki, or use a premade deck for Genki 1.
-2. Genki 2, Anki, Italki, Optional Wanikani/Anki Kanji Deck
+
+2. **Genki 2 | Anki | Italki | *Optional Wanikani/Anki Kanji Deck***
+
 	At this point, I think speaking practice is no longer optional. Find a tutor, join a local conversation table, or find any way to practice speaking. Furthermore, as we get more comfortable with grammar and characters, some media opens up, so don't be afraid to venture into the wild and find some easy manga/shows to watch! The Kanji learning at this step is optional, but encouraged. Genki 1 + 2 cover around 300 characters, and any you learn on your own will never hurt.
-3. Graduate to Tobira, incorporate media
+
+3. **Graduate to Tobira, incorporate media**
+
 	This is the transition from beginner to intermediate. Make sure you have a sound method for committing grammar, vocab and characters to your long term memory - whether that's quizlet, anki, or some other service (even handwritten). Continue learning Kanji from your personal deck or from Tobira - they're all super useful. As you make your way through Tobira, even more native material opens up to you, so start reading blogs, news sites, and listening to podcasts or music!
-4. Nirvana
+
+4. **Nirvana**
+
 	After Tobira, you can consider yourself a strong learner of Japanese. You have the tools (grammar, characters, vocab) to start learning almost entirely from media. If you so desire, you can prep for the JLPT exam and use a textbook designed specifically for that exam. But other than that, you've progressed through the hardest part! Do what makes you happy with the language - chat with native speakers, watch tough shows, read Murakami (with a dictionary, of course). I'm proud of you! Very few learners make it this far in any language.
 	
 ## Conclusion
