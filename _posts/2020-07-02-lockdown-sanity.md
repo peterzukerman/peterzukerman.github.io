@@ -3,6 +3,7 @@ layout: post
 title: "Quarantined Folding: Starting an Origami Instagram"
 excerpt: I've been folding for almost a decade now. I decided to revive my hobby during COVID.  
 tags:       [quarantine, origami, english]
+header-img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/1920px-Cranes_made_by_Origami_paper.jpg"
 comments: true
 ---
 
