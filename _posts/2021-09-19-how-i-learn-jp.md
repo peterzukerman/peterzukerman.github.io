@@ -79,11 +79,11 @@ That's it! I don't use too many resources now because I don't need to - most of 
 ## Recommend Study Plan (0 to Hero)
 Here's how I would study as a complete beginner. If you are more advanced, jump to the point in the plan that you are on in your own studies.
 
-1. **Genki 1 | Anki | *Optional Italki/Tutoring***
+1. **Genki 1 | Anki | Optional Italki/Tutoring**
 
 	In this step, we want to learn the alphabets (there's 3) of Japanese, get some basic grammar and speaking practice under our belt, and commit it to our long term memory. Load everything and anything into Anki, or use a premade deck for Genki 1.
 
-2. **Genki 2 | Anki | Italki | *Optional Wanikani/Anki Kanji Deck***
+2. **Genki 2 | Anki | Italki | Optional Wanikani/Anki Kanji Deck**
 
 	At this point, I think speaking practice is no longer optional. Find a tutor, join a local conversation table, or find any way to practice speaking. Furthermore, as we get more comfortable with grammar and characters, some media opens up, so don't be afraid to venture into the wild and find some easy manga/shows to watch! The Kanji learning at this step is optional, but encouraged. Genki 1 + 2 cover around 300 characters, and any you learn on your own will never hurt.
 
