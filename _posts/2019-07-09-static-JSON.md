@@ -3,8 +3,8 @@ layout: post
 title: Static Methods/Variables and JSON, a quick Python Primer
 excerpt: What are static method/variables, and why do we use them? How do I work with JSON in Python?
 tags:       [programming, python, english]
-comments: true
 header-img: "https://resources.jetbrains.com/help/img/idea/2021.2/ac_json_schema_from_store_status_bar.png"
+comments: true
 
 --- 
 In this post I want to give a quick background on the use cases of static methods and variables, and touch on JSON parsing in Python.
