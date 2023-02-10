@@ -1,3 +1,9 @@
+- name: Probing for Understanding of English Verb Classes and Alternations in
+Large Pre-trained Language Models
+  descr: "Investigating the extent to which verb alternation classes are encoded in the embeddings of Large Pretrained Language Models (PLMs) such as BERT"
+  image: pong.png
+  website: https://arxiv.org/pdf/2209.04811.pdf
+
 - name: Twitter Sarcasm Detection
   descr: "Classifies a given sequence of tweets (responses) as sarcastic or non-sarcastic. Based on BERT."
   image: pong.png
