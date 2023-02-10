@@ -1,5 +1,4 @@
-- name: Probing for Understanding of English Verb Classes and Alternations in
-Large Pre-trained Language Models
+- name: Probing for Understanding of English Verb Classes and Alternations
   descr: "Investigating the extent to which verb alternation classes are encoded in the embeddings of Large Pretrained Language Models (PLMs) such as BERT"
   image: pong.png
   website: https://arxiv.org/pdf/2209.04811.pdf
